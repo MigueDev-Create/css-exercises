@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.impares {
+background-color: rgb(231, 137, 137);
+font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#two-element {
+color: blue;
+font-size: 36px;
+}
+
+.text {
+    font-size: 24px;
+}
+
+#four-element {
+    background-color: rgb(112, 209, 112);
+    font-size: 24px;
+    font-weight: bold;
+}
