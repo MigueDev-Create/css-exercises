@@ -5,7 +5,16 @@ html {
 }
 
 .container {
+  display: grid;
+  grid-template: 150px 150px 750px 150px / 400px 1200px;
+  grid-template-areas:
+    "header header"
+    "sidebar nav"
+    "sidebar article"
+    "footer footer";
+
   text-align: center;
+  gap: 15px;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
@@ -21,22 +30,27 @@ html {
 }
 
 .header {
+  grid-area: header;
   background-color: #006157;
 }
 
 .sidebar {
-  background-color: #005B94;
+  grid-area: sidebar;
+  background-color: #005b94;
 }
 
 .nav {
+  grid-area: nav;
   background-color: #642cde;
 }
 
 .article {
-  background-color: #7E1DC3;
+  grid-area: article;
+  background-color: #7e1dc3;
 }
 
 .footer {
+  grid-area: footer;
   background-color: #393f4d;
 }
 

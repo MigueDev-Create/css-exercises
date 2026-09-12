@@ -64,7 +64,6 @@ li {
   gap: 30px;
   flex-wrap: wrap;
   display: flex;
-  flex: 1;
 }
 
 .card {
